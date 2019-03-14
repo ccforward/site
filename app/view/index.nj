@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="telephone=no" name="format-detection"/>
+  <meta name="renderer" content="webkit">
+  <link rel="icon" href="https://img.alicdn.com/tfs/TB1dM_lzNYaK1RjSZFnXXa80pXa-32-32.ico" type="image/x-icon">
+  <title>ccForward</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "droid-sans", "stheiti", 'hei', 'Hiragino Sans GB', "microsoft yahei", sans-serif;
+      font-size: 14px;
+      -webkit-text-size-adjust: none;
+    }
+    .app .page {
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: #555;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+      background-image:url('https://img.alicdn.com/tfs/TB1z2IKGNTpK1RjSZFKXXa2wXXa-2400-1600.jpg')
+    }
+    .app .page .p_body {
+      position: relative;
+      top: 45%;
+      color: #fff;
+      transform: translateY(-50%);
+    }
+    .app .page .p_body .content {
+      font-size: 18px;
+      font-weight: bold;
+      text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+      letter-spacing: 1px;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+    .app .page .p_body .title {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 46px;
+      line-height: 1.1;
+      text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.78);
+    }
+    .app .links {
+      margin-top: 115px;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+    }
+    .app .links a {
+      letter-spacing: 1px;
+      font-family: Arial;
+      font-size: 16px;
+      padding: 12px 25px;
+      border-radius: 3px;
+      margin: 0 18px;
+      display: inline-block;
+      margin-bottom: 20px !important;
+      line-height: 1.2;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .app .links a:hover {
+      background: rgba(17, 17, 17, 0.25)
+    }
+  </style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83641497-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-83641497-2');
+  </script>
+
+</head>
+<body>
+  <div class="app">
+    <div class="page" >
+      <div class="p_body">
+        <h1 class="title">ccForward</h1>
+        <p class="content">道路千万条 安全第一条</p>
+        <div class="links">
+          <a href="https://github.com/ccforward"  target=_blank>GitHub</a>
+          <a href="https://www.instagram.com/ccforward/" target=_blank>Instagram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>{{ ctx | dump | safe }}</script>
+</body>
+</html>
