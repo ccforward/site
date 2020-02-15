@@ -7,6 +7,8 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ## Quick Start
 
+![img](https://img.alicdn.com/tfs/TB1z2IKGNTpK1RjSZFKXXa2wXXa-2400-1600.jpg)
+
 ### Create a new post
 
 ``` bash
