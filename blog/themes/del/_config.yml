@@ -32,7 +32,9 @@ fancybox: true
 
 # Miscellaneous
 github: https://github.com/ccforward
-instagram: https://www.instagram.com/ccforward/
+instagram: https://www.instagram.com/ccforward
+
+cdn: https://cdn.jsdelivr.net/gh/ccforward/site@master/static
 
 #about  timeline
 # timeline:

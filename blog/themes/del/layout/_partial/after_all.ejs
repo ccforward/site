@@ -15,12 +15,12 @@
         resizeHero();
     });
 </script>
-<script src="<%- config.root %>js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
-<script src="<%- config.root %>js/scripts.js"></script><!-- Theme scripts -->
+<script src="<%- theme.cdn %>/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="<%- theme.cdn %>/js/scripts.js"></script><!-- Theme scripts -->
 
 <% if (theme.fancybox){ %>
-<link rel="stylesheet" href="<%- config.root %>fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="<%- config.root %>fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="<%- theme.cdn %>/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="<%- theme.cdn %>/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
 $('#intro').find('img').each(function(){
   var alt = this.alt;
