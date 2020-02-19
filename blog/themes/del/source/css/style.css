@@ -3,7 +3,9 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(../fonts/opensans.woff) format('woff');
+  src: local('Open Sans Regular'),
+  local('OpenSans-Regular'),
+  url(https://cdn.jsdelivr.net/gh/ccforward/site@master/static/fonts//opensans.woff) format('woff');
 }
 
 *{
@@ -3312,7 +3314,12 @@ footer .footer_bottom {
   color: #2C4A77;
 }
 /* Import the font file with the icons in it */
-@font-face { font-family: 'icons'; src:  url('../fonts/icons.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face {
+  font-family: 'icons';
+  src: url('https://cdn.jsdelivr.net/gh/ccforward/site@master/static/fonts/icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Apply these base styles to all icons */
 .icon-feed:before,
 .icon-instagram:before,
