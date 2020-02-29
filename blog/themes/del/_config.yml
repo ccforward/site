@@ -33,7 +33,9 @@ fancybox: true
 github: https://github.com/ccforward
 instagram: https://www.instagram.com/ccforward
 
-cdn: https://cdn.jsdelivr.net/gh/ccforward/site@master/static
+cdn: https://cdn.jsdelivr.net/
+cdnName: gh/ccforward/site@master/static/
+cdnCombine: https://cdn.jsdelivr.net/
 
 #about  timeline
 # timeline:

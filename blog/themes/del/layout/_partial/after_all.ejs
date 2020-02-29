@@ -1,5 +1,5 @@
 <!-- Load our scripts -->
-<script src="<%- theme.cdn %>/js/jquery-1.11.1.min.js"></script>
+<script src="<%- theme.cdn %><%- theme.cdnName %>js/jquery-1.11.1.min.js"></script>
 <!-- Resizable 'on-demand' full-height hero -->
 <script type="text/javascript">
     var resizeHero = function () {
@@ -16,12 +16,14 @@
         resizeHero();
     });
 </script>
-<script src="<%- theme.cdn %>/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
-<script src="<%- theme.cdn %>/js/scripts.js"></script><!-- Theme scripts -->
+<!-- Bootstrap core and concatenated plugins always load here -->
+<!-- Theme scripts -->
+<script src="<%- theme.cdn %>combine/<%- theme.cdnName %>js/plugins.min.js,<%- theme.cdnName %>js/scripts.js">
+</script>
 
 <% if (theme.fancybox){ %>
-<link rel="stylesheet" href="<%- theme.cdn %>/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="<%- theme.cdn %>/fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="<%- theme.cdn %><%- theme.cdnName %>fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="<%- theme.cdn %><%- theme.cdnName %>fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
 $('#intro').find('img').each(function(){
   var alt = this.alt;

@@ -104,3 +104,11 @@ theme: del
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+neat_enable: true
+neat_css:
+  enable: true
+  exclude:
+neat_html:
+  enable: true
+  exclude:
