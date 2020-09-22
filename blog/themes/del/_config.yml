@@ -3,7 +3,7 @@
 cover: https://img.alicdn.com/tfs/TB1HAU.VpY7gK0jSZKzXXaikpXa-2042-1364.jpg
 # logo: https://img.alicdn.com/tfs/TB1M5l1BZfpK1RjSZFOXXa6nFXa-256-256.png
 top_saying:
-- title: <span>MAY THE FORCE BE WITH YOU.</span>
+- title: <span class="site-title">MAY THE FORCE BE WITH YOU.</span>
 # - content: You'll Never Walk Alone.
 bottom_saying: 已阅，狗屁不通！
 
