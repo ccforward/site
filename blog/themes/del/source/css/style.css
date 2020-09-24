@@ -216,9 +216,9 @@ hr {
 	background: #00000040;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 	.center-me .site-title {
-		font-size: 15px;
+		font-size: 18px;
 	}
 }
 /* No padding on-the-fly */

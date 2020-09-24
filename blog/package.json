@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "hexo generate",
-    "pre-build": "hexo generate && cp public/css/index.css ../static/css/index.css",
+    "pre-build": "hexo clean && hexo generate && cp public/css/index.css ../static/css/index.css",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
