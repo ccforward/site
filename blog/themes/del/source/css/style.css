@@ -3030,7 +3030,7 @@ footer .footer_bottom {
 	background-color: gray;
 	color: #fff!important;
 }
-.m-pagination a{
+.m-pagination a {
 	color: gray;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -3039,8 +3039,8 @@ footer .footer_bottom {
 	max-width: 100%;
 	text-overflow: ellipsis;
 	overflow: hidden;
-  	white-space: nowrap;
-  	margin-bottom: 10px;
+	white-space: nowrap;
+	margin-bottom: 10px;
 
 }
 .m-pagination a:hover{
