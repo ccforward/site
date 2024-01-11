@@ -39,7 +39,7 @@ cdn: https://cdn.jsdelivr.net/
 cdnName: gh/ccforward/site@master/static/
 cdnCombine: https://cdn.jsdelivr.net/
 
-about  timeline
+#about  timeline
 timeline:
 - num: 1
   word: 2013/01/01-Start
